@@ -1,102 +1,226 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **All about Marvel superheroes**
 
-Welcome antalmelinda1116,
+## **Goal for this project** 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
 
-Happy coding!
+<a></a>
+## Table of contents 
+* [UX](#ux)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+        * [Requirements](#requirements)
+        * [Expectations](#expectations)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+        * [Structure](#structure)
+* [Wireframes](#wireframes)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries and Frameworks](#libraries-and-frameworks)
+    * [Tools](#tools)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+
+<a name="ux"></a>
+## **UX**
+<a></a>
+### **User Goals**
+
+* 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+### **User Stories**
+
+* 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+### **Site owners Goals**
+
+* Provide official information about Marvel's superheroes via the official Marvel API.
+* Help to search the information needed.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+### **User Requirements and Expectations**
+<a></a>
+#### Requirements
+
+* 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+#### Expectations
+
+* 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+### **Design Choices**
+
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+#### Fonts
+
+In order to find the exact fonts for my website, I visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the options.
+For the overall content I have decided to use the [Spartan](https://fonts.google.com/specimen/Spartan?query=spartan#standard-styles "Google fonts: Spartan") font. In my opinion this font is easy to read and visually appealing.
+For my headings I decided to go with a different font in order to make them stand out from the main content. The font I choosed for this, is the [Julius Sans One](https://fonts.google.com/specimen/Julius+Sans+One?query=ju#standard-styles "Google Fonts: Julius Sans One") font.
+This is a bit rounded uppercase font what matches with the overall font.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+#### Icons
+
+I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+#### Colors
+
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+#### Structure
+
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create an overall structure for my website. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
+As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
+
+[Back to Top](#table-of-contents)
+
+--- 
+
+<a></a>
+## **Wireframes**
+
+I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
+First I created a basic wireframe for desktop and later on for tablet and mobile. 
+For my website I have decided to use a scroll page as it's focused on searching objects in a big amount of data.
+The website will be easy to navigate by using the navigation bar.
+
+You can find my wireframes below:
+
+### [Desktop Wireframe](wireframes/desktop-wireframe.pdf)
+
+### [Tablet Wireframe](wireframes/tablet-wireframe.pdf)
+
+### [Mobile Wireframe](wireframes/mobile-wireframe.pdf)
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Features**
+
+<a></a>
+### **Existing Features**
+
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+### **Features to be implemented**
+
+* 
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Technologies used**
+<a></a>
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+### **Libraries and Frameworks**
+
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+<a></a>
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Testing**
+
+
+
+
+
+[Back to Top](#table-of-contents)
+
+### Bugs
+
+
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Deployment**
+
+This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+
+1. Navigate to the repository on github and click **Settings**.
+1. On the left hand menu choose **Pages** and find Source section.
+1. Select **main branch** on the dropdown menu, and click save.
+1. Now the website is live on **https://antalmelinda1116.github.io/all-about-marvel/**
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the **green Clone or Download button** on the Github Repository
+1. Using the **Clone with HTTPS option**, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to go.
+1. Use the **"git clone" command** and paste the url copied in the second step.
+
+[Back to Top](#table-of-contents)
+
+<a></a>
+## **Credits**
+
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas and information for the overall content of my website: 
+
+* [HDQ Walls](https://hdqwalls.com/)
+
+
+[Back to Top](#table-of-contents)
