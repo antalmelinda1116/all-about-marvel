@@ -10,11 +10,10 @@ body {
 
     font-family: 'Spartan', sans-serif;
     font-size: 1.6rem;
-    font-weight: 400;
     padding: 0;
     margin: 0;
   }
-
+  
 h2,
 h3,
 h4,
@@ -25,14 +24,17 @@ h6 {
     font-family: "Julius Sans One", sans-serif;
   }
 
-#heroe-image {
-    background-image: url('../images/heroe-img.jpeg');
-    background-position: center center;
+  #title {
+    font-family: "Julius Sans One", sans-serif;
+  }
+
+  #heroe-image {
+    background-image: url(../images/heroe-img.jpeg);
+    background-position: center top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: scroll;
-    padding: 0;
-}
+    height: 60vh;
+  }
