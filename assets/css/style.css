@@ -36,14 +36,14 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 
     text-align: center;
 
   }
 
   #search {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   #search-btn{
@@ -71,4 +71,10 @@ h6 {
     border-style: hidden;
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  #result {
+    background-color: #000000;
+    min-height: 10vh;
+    color: #ffffff;
   }
