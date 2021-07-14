@@ -36,5 +36,39 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
+
+    text-align: center;
+
+  }
+
+  #search {
+    margin-top: 5rem;
+  }
+
+  #search-btn{
+    background-color: transparent;
+    color: #ed1d24;
+    font-weight: 500;
+    border-radius: 1rem;
+    border-color: #ed1d24;
+  }
+
+  #search-btn:hover {
+    background-color: #ed1d24;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 1rem;
+    border-color: #ffffff;
+    border-width: thin;
+  }
+
+  #search-input {
+    background-color: rgba(237, 29, 36, 0.9);
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 1rem;
+    border-style: hidden;
+    width: 100%;
+    margin-bottom: 1rem;
   }
