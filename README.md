@@ -91,7 +91,7 @@ We all love comics and/or superheores. Marvel universe is huge including uncount
 <a></a>
 ### **Design Choices**
 
-
+Marvel is an existing brand having its own design so for this page I was about to use fitting colors and design in general.
 
 [Back to Top](#table-of-contents)
 
@@ -115,6 +115,7 @@ I have decided to implement icons, using the [Font Awesome library](https://font
 <a></a>
 #### Colors
 
+As Marvel has its own design including colors, I was trying to use matching colors with it. It includes the tipical Marvel red e.g.
 
 
 [Back to Top](#table-of-contents)
