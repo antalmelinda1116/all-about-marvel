@@ -72,7 +72,10 @@ We all love comics and/or superheores. Marvel universe is huge including uncount
 <a></a>
 #### Requirements
 
-* 
+* Easy to find the data needed
+* Getting relevant information related also
+* Reliable information
+* Search works correctly
 
 [Back to Top](#table-of-contents)
 
