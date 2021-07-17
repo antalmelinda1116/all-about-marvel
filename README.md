@@ -82,7 +82,9 @@ We all love comics and/or superheores. Marvel universe is huge including uncount
 <a></a>
 #### Expectations
 
-* 
+* When I click on the search button, I expect to see the correct result.
+* I expect to not duplicating my searches when I do another one.
+* Easily readable information as a result.
 
 [Back to Top](#table-of-contents)
 
