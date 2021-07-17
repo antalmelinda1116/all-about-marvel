@@ -50,7 +50,12 @@ We all love comics and/or superheores. Marvel universe is huge including uncount
 <a></a>
 ### **User Stories**
 
-* 
+* As a user, I want to find easily what I am looking for.
+* As a user, I want to read official information.
+* As a user, I want to use a simple navigation on the site.
+* As a user, I want to see a nice and simple design.
+* As a user, I want to get information about my searching as related movies etc.
+* As a user, I want to be able to use the site on different devices.
 
 [Back to Top](#table-of-contents)
 
