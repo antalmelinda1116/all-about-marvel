@@ -2,7 +2,7 @@
 
 ## **Goal for this project** 
 
-
+We all love comics and/or superheores. Marvel universe is huge including uncountable superheroes. This website is intended to help you finding your favourite characters and getting information about them using the official Marvel database.
 
 ---
 
@@ -38,7 +38,12 @@
 <a></a>
 ### **User Goals**
 
-* 
+* A website providing official and responsible information
+* Easy usage
+* The search working correctly
+* Website should be easy to use on desktop, tablet & mobile
+* Appealing visual elements
+* Fitting design to the topic
 
 [Back to Top](#table-of-contents)
 
