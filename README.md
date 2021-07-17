@@ -134,7 +134,6 @@ As Bootstrap is designed for mobile first, I will be certain that my website fun
 I have decided to use [Balsamic](https://balsamiq.com/wireframes/) to create wireframes for my website. 
 First I created a basic wireframe for desktop and later on for tablet and mobile. 
 For my website I have decided to use a scroll page as it's focused on searching objects in a big amount of data.
-The website will be easy to navigate by using the navigation bar.
 
 You can find my wireframes below:
 
