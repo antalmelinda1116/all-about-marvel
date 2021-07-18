@@ -178,6 +178,7 @@ You can find my wireframes below:
 ### **Libraries and Frameworks**
 
 * [Marvel Developer Portal](https://developer.marvel.com/)
+* [jQuery](https://jquery.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
