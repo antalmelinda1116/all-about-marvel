@@ -1,31 +1,50 @@
-@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100..900&family=Julius+Sans+One);
+  @import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100..900&family=Julius+Sans+One);
 
-html {
+  html {
     scroll-padding-top: 2.5rem;
     font-size: 62.5%;
     scroll-behavior: smooth;
   }
-  
-body {
+    
+  body {
 
     font-family: 'Spartan', sans-serif;
     font-size: 1.6rem;
     padding: 0;
     margin: 0;
   }
-  
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 5rem;
+    
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: "Julius Sans One", sans-serif;
   }
 
+  header {
+    background-color: #000000;
+    color: #ed1d24;;
+    letter-spacing: 1rem;
+
+  }
+
+  a {
+    text-decoration-style: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    text-decoration-style: none;
+    color: #ed1d24;
+  }
+
   #title {
     font-family: "Julius Sans One", sans-serif;
+    margin: 0;
+    text-align: center;
   }
 
   #heroe-image {
@@ -36,7 +55,7 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
 
     text-align: center;
 
@@ -64,17 +83,24 @@ h6 {
   }
 
   #search-input {
-    background-color: rgba(237, 29, 36, 0.9);
-    color: #ffffff;
-    font-weight: 300;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 400;
     border-radius: 1rem;
     border-style: hidden;
     width: 100%;
     margin-bottom: 1rem;
   }
 
+  #search-input:focus {
+    outline: none !important;
+    border:1px solid #000000;
+  }
+
   #data {
     background-color: #000000;
-    min-height: 10vh;
+    min-height: 20vh;
     color: #ffffff;
+    text-align: center;
+    padding-top: 3rem;
   }
