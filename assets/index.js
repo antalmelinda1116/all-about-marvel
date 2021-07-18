@@ -3,7 +3,9 @@ $( document ).ready(function() {
   $('#search-btn').click(function(){
      $('#data').html('');
      let text=jQuery('#search-input').val();
-     getSingleHeroe(text);
+     if(text != ''){
+      getSingleHeroe(text);
+  }
      
    });
  
@@ -32,12 +34,13 @@ $( document ).ready(function() {
  }); 
  
  const showResults = (results) => {
-   if (results.length==0){
-     let html = `
-     <h2>No results</h2>`
-     $('#data').html(html);
-     console.log('hejn');
-   }
+
+  if (results.length==0){
+    let html = `
+    <h2>Sorry, we couldn't find any superheroes with the given character name. Please check if the spelling is right.</h2>`
+    $('#data').html(html);
+  }
+   
    results.forEach(element => {
      let html = `
       <div class='col col-md-6 col-lg-3'>
@@ -45,10 +48,10 @@ $( document ).ready(function() {
           <a href='javascript:getCharacter(${element.id})'>
             <img src='${element.imageURL}' alt=''>
             <div class='box__title'>
-              <h6>${element.name}</h6>
-              <p>${element.description}</p>
+              <h2>${element.name}</h2>
             </div>
           </a>
+          <p>${element.description}</p>
         </div>
       </div>`
      $('#data').append(html);
