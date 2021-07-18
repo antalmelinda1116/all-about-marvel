@@ -63,6 +63,7 @@
 
   #search {
     margin-top: 3rem;
+    position: relative;
   }
 
   #search-btn{
@@ -95,6 +96,24 @@
   #search-input:focus {
     outline: none !important;
     border:1px solid #000000;
+  }
+
+  #show-all-btn {
+    background-color: transparent;
+    color: #ed1d24;
+    font-weight: 500;
+    border-radius: 1rem;
+    border-color: #ed1d24;
+    position: absolute;
+  }
+
+  #show-all-btn:hover {
+    background-color: #ed1d24;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 1rem;
+    border-color: #ffffff;
+    border-width: thin;
   }
 
   #data {
