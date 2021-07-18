@@ -177,6 +177,7 @@ You can find my wireframes below:
 <a></a>
 ### **Libraries and Frameworks**
 
+* [Marvel Developer Portal](https://developer.marvel.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
@@ -235,6 +236,7 @@ To run the project locally:
 
 I have used the following websites to gather ideas and information for the overall content of my website: 
 
+* [Marvel](https://www.marvel.com/)
 * [HDQ Walls](https://hdqwalls.com/)
 
 
