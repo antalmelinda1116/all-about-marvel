@@ -74,3 +74,25 @@ $( document ).ready(function() {
    });
    
  }
+
+ function getCharacter(id) {
+  fetch('https://gateway.marvel.com/v1/public/characters/'+id+'?apikey=5895d6f1aa65ad4fbf8f2e49c3db79dd&hash=5b0f850b5bd90b5b2f5b2028c4b3be34&ts=1')
+  .then(res=>res.json())
+  .then(result=>singleResult(result))
+}
+
+const singleResult = (results) => {
+  let character = results.data.results[0];
+  let html = `
+    <div class='col col-md-4 col-lg-3 col-xl-2'>
+    <div class='box'>
+      <img src='${character.imageURL}' alt=''>
+      <div class='box__title'>
+        <h2>${character.name}</h2>
+      </div>
+      <h4>Description:</h4>
+      <p>${character.description}</p>
+    </div>
+  </div>`
+  $('#data').html(html);
+}
