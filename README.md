@@ -17,7 +17,6 @@ We all love comics and/or superheores. Marvel universe is huge including uncount
         * [Expectations](#expectations)
     * [Design Choices](#design-choices)
         * [Fonts](#fonts)
-        * [Icons](#icons)
         * [Colors](#colors)
         * [Structure](#structure)
 * [Wireframes](#wireframes)
@@ -106,13 +105,6 @@ This is a bit rounded uppercase font what matches with the overall font.
 [Back to Top](#table-of-contents)
 
 <a></a>
-#### Icons
-
-I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
-
-[Back to Top](#table-of-contents)
-
-<a></a>
 #### Colors
 
 As Marvel has its own design including colors, I was trying to use matching colors with it. It includes the tipical Marvel red e.g.
@@ -154,14 +146,24 @@ You can find my wireframes below:
 <a></a>
 ### **Existing Features**
 
+#### Search
 
+For the searching I implemented a search input what uses the Marvel's API to get information about its characters.
+There are two options to search. An exact character can be searched by typing its name in the searching input and clicking on the search button.
+Clicking on showing all characters button shows the first 100 characters in alphabetic order. Unfortunately the Marvel's API doesn't allow us to use bigger limit than 100.
+
+#### Results
+
+As result you can get one single character or 100 character in a scrolling page than ypu can click on the preferred character to see the description.
+The first idea was getting all the characters from Marvel and showing then using pagination but as the Marvel's API doesn't allow to use bigger limit than 100 I decided to not implementing pagination.
 
 [Back to Top](#table-of-contents)
 
 <a></a>
 ### **Features to be implemented**
 
-* 
+* Searching for different things as movies, comics etc.
+* Showing every related information of the choosen character as clickable links to get more information.
 
 [Back to Top](#table-of-contents)
 
