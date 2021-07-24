@@ -134,3 +134,15 @@
     text-align: center;
     padding-top: 3rem;
   }
+
+  #spinner {
+    width: 4rem;
+    height: 4rem;
+  }
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    border: rgba(0,0,0,.0);
+    display: block;
+}
