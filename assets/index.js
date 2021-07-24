@@ -2,6 +2,7 @@ $( document ).ready(function() {
 
   $('#search-btn').click(function(){
     $('#search-btn').attr('disabled',true);
+    $('#spinner-modal').modal('show');
      $('#data').html('');
      let text=jQuery('#search-input').val();
      if(text != ''){
@@ -11,6 +12,7 @@ $( document ).ready(function() {
    });
 
    $('#show-all-btn').click(function(){
+    $('#spinner-modal').modal('show'); 
     $('#data').html('');
     
      getAllHeroes();
@@ -74,6 +76,7 @@ $( document ).ready(function() {
      $('#data').append(html);
    });
    $('#search-btn').attr('disabled',false);
+   $('#spinner-modal').modal('hide');
    
  }
 
