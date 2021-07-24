@@ -198,8 +198,39 @@ The first idea was getting all the characters from Marvel and showing then using
 <a></a>
 ## **Testing**
 
+### Search
 
+* **Plan**    
+I wanted to create a website where people can search information about their favorite Marvel's character. Beside the single character searching my plan was to implement a function also to show all the Marvel's superheroes with pagination.
 
+* **Implementation**   
+To make the website responsive I used Bootstrap to create an overall structure and I overwrote the default styles with CSS. For getting the needed information I used the Marvel's API that 3000 calls/day can be made with.
+
+* **Test**    
+To test the searching function I tried to search for several Marvel character from different devices. I also tried listing them all from all kind of devices.
+
+* **Result**    
+Unfortunately the Marvel's API doesn't allow to list more than 100 characters at the time so we can show only the first 100 superheroes clicking the "Show all superheroes!" button. If we would like to search for example Hulk, we can type it in the search input and it works fine.
+
+* **Verdict**    
+The test has passed all the technical criteria and it works the best way that is possible.
+
+### Stage messages
+
+* **Plan**    
+I wanted to give feedback to the user about the searching stage and if something went wrong so I decided to implement warning messages and a spinner while waiting for the results.
+
+* **Implementation**   
+To make the spinner I decided to use a combination of Bootstrap's spinner and modal. In case the searching couldn't find anything I decided to use a simple message to warn the user about it.
+
+* **Test**    
+To test the spinner and the warning message I tried to search different superheroes included from DC universe too.
+
+* **Result**    
+I could see the spinner while waiting for the result. The warning message showed up when the searchong was incorrect.
+
+* **Verdict**    
+The test has passed all criteria and it works fine.
 
 
 [Back to Top](#table-of-contents)
