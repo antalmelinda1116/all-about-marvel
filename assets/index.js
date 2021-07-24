@@ -1,6 +1,7 @@
 $( document ).ready(function() {
-  
+
   $('#search-btn').click(function(){
+    $('#search-btn').attr('disabled',true);
      $('#data').html('');
      let text=jQuery('#search-input').val();
      if(text != ''){
@@ -72,6 +73,7 @@ $( document ).ready(function() {
       </div>`
      $('#data').append(html);
    });
+   $('#search-btn').attr('disabled',false);
    
  }
 
