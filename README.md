@@ -192,6 +192,7 @@ The first idea was getting all the characters from Marvel and showing then using
 * [Balsamic](https://balsamiq.com/wireframes/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [JSHint, a JavaScript Code Quality Tool](https://jshint.com/)
 
 [Back to Top](#table-of-contents)
 
