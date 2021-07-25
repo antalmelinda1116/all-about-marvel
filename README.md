@@ -211,7 +211,7 @@ To make the website responsive I used Bootstrap to create an overall structure a
 To test the searching function I tried to search for several Marvel character from different devices. I also tried listing them all from all kind of devices.
 
 * **Result**    
-Unfortunately the Marvel's API doesn't allow to list more than 100 characters at the time so we can show only the first 100 superheroes clicking the "Show all superheroes!" button. If we would like to search for example Hulk, we can type it in the search input and it works fine.
+Unfortunately the Marvel's API doesn't allow to list more than 100 characters at the time so we can show only the first 100 superheroes clicking the "Show all superheroes!" button. If we would like to search for example Hulk, we can type it in the search input and it works fine. Also this API requieres us using the exact character name to search.
 
 * **Verdict**    
 The test has passed all the technical criteria and it works the best way that is possible.
@@ -238,7 +238,16 @@ The test has passed all criteria and it works fine.
 
 ### Bugs
 
+#### Searching
 
+* **Bug**  
+When I tested the searching function I realised if I clicked a few times quiclky to the search button, the searching duplicated before showing up the results. So when it finished loading I could see the same character as much times I clicked the button.
+
+* **Fix**        
+To resolve this problem I made the search button disabled while loading the searching results.
+
+* **Verdict**    
+Bug was resolved and the search now works as planned. 
 
 [Back to Top](#table-of-contents)
 
