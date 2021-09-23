@@ -3,42 +3,35 @@ const APIKEY = "5895d6f1aa65ad4fbf8f2e49c3db79dd&hash=5b0f850b5bd90b5b2f5b2028c4
 $( document ).ready(function() {
 
   $('#search-btn').click(function(){
-    $('#search-btn').attr('disabled',true);
-    $('#spinner-modal').modal('show');
-     $('#data').html('');
-     let text=jQuery('#search-input').val();
-     if(text != ''){
-      getSingleHeroe(text);
-  }
-     
+    let SearchingValue = jQuery('#search-input').val();
+    if(SearchingValue){
+      getHeroes(SearchingValue);
+      $('#search-btn').attr('disabled',true);
+      $('#spinner-modal').modal('show');
+      $('#data').html('');
+    }
+    return; 
    });
 
    $('#show-all-btn').click(function(){
     $('#spinner-modal').modal('show'); 
     $('#data').html('');
     
-     getAllHeroes();
+     getHeroes();
  
     
   });
  
-   const getSingleHeroe = (text)=>{
-   fetch('https://gateway.marvel.com/v1/public/characters?apikey=${APIKEY}&ts=1&limit=100&name='+text)
+   const getHeroes = (SearchingValue)=>{
+     let apiURL = `https://gateway.marvel.com/v1/public/characters?apikey=${APIKEY}&ts=1&limit=100`
+     if(SearchingValue) apiURL + `&name=${SearchingValue}`
+   fetch(apiURL)
    .then(res=>res.json())
    .then(data=>extractCorrectData(data.data.results))
    .then(result=>showResults(result))
    .catch(error=>console.log(error));
  
  };
-
- const getAllHeroes = ()=>{
-  fetch('https://gateway.marvel.com/v1/public/characters?apikey=${APIKEY}&ts=1&limit=100')
-  .then(res=>res.json())
-  .then(data=>extractCorrectData(data.data.results))
-  .then(result=>showResults(result))
-  .catch(error=>console.log(error));
-
-};
  
    const extractCorrectData = (character) => {
    return character.map(item =>{
@@ -83,7 +76,7 @@ $( document ).ready(function() {
  };
 
  function getCharacter(id) {
-  fetch('https://gateway.marvel.com/v1/public/characters/'+id+'?apikey=${APIKEY}&ts=1')
+  fetch(`https://gateway.marvel.com/v1/public/characters/'+id+'?apikey=${APIKEY}&ts=1`)
   .then(res=>res.json())
   .then(result=>singleResult(result));
 }
